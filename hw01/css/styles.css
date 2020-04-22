@@ -1,0 +1,51 @@
+/* Global styles
+------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+
+html {
+    box-sizing: border-box;
+      margin-left: 150px;
+      margin-right: 150px;
+    /* background: #EEE; */
+}
+
+/*
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+*/
+p, li, h3 {
+  font-family: 'Manrope', sans-serif;
+}
+.introtext{
+  background-color: #94BDF8;
+  border: solid 1px black;
+  margin: 0px;
+
+}
+
+.featuredprojects{
+  background-color: #FB8F79;
+}
+
+.workexp{
+  background-color: #C7FD8A;
+}
+
+.edu{
+  background-color: #E6A3FC;
+}
+
+header {
+
+  text-align: center;
+}
+
+
+
+
+h1, h2{
+  font-family:'Roboto',fantasy;
+
+}
